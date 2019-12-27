@@ -6,14 +6,24 @@
      >
 
     <TextView
-        android:id="@+id/tvName"
-        android:layout_alignBaseline="@+id/ivUserIcon"
-        android:layout_toRightOf="@+id/ivUserIcon"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@+id/ivUserIcon"
+        android:paddingRight="6dp"
+        android:text="Name:" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ivUserIcon"
+        android:layout_marginLeft="47dp"
+        android:layout_toRightOf="@+id/ivUserIcon"
         android:paddingLeft="10dp"
         android:paddingRight="6dp"
-        android:text="Sarah"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <TextView
@@ -21,17 +31,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/tvName"
+        android:layout_marginLeft="0dp"
         android:layout_toRightOf="@+id/tvName"
         android:paddingRight="6dp"
-        android:text="from " />
+        android:text="Phonenum:" />
 
     <TextView
-        android:id="@+id/tvHometown"
+        android:id="@+id/tvPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/tvName"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="0dp"
         android:layout_toRightOf="@+id/textView2"
-        android:text="San Marco"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <ImageView
